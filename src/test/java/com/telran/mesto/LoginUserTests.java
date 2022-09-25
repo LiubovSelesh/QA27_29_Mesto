@@ -8,15 +8,15 @@ public class LoginUserTests extends TestBase{
 
     @BeforeMethod
     public void ensurePrecondition() {
-        if (isLogInButtonPresent()) {
-            clickOnLoginTap();
+        if (app.getUser().isLogInButtonPresent()) {
+            app.getUser().clickOnLoginTap();
         }
     }
 
     @Test
     public void loginUserPositiveTest() {
-        fillDataLoginUser();
-        Assert.assertTrue(isLogOutTapPresent());
+        app.getUser().fillDataLoginUser();
+        Assert.assertTrue(app.getUser().isLogOutTapPresent());
 
     }
 

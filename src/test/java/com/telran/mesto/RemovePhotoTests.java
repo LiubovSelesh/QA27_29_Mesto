@@ -7,20 +7,20 @@
 //public class RemovePhotoTests extends TestBase{
 //
 //    @BeforeMethod
-//    public void ensurePrecondition() {
+//    public User ensurePrecondition() {
 //        fillDataLoginUser();
 //        click(By.cssSelector(".profile__add-button"));
 //        AddNewPhoto();
 //    }
 ////
 //    @Test
-//    public void removePhotoPositiveTest() {
+//    public User removePhotoPositiveTest() {
 //        removePhoto();
 ////        click(By.cssSelector(".place:nth-child(3) .place__trash_type_active"));
 ////        click(By.xpath("//button[contains(text(),'Yes')]"));
 //    }
 //
-//    public void removePhoto() {
+//    public User removePhoto() {
 //        if(!isPhotoListEmpty()) {
 //            wd.findElement(By.cssSelector(".place:nth-child(3) .place__trash_type_active")).click();
 ////            wd.findElement()

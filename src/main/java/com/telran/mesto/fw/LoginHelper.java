@@ -1,4 +1,4 @@
-package com.telran.mesto;
+package com.telran.mesto.fw;
 
 public class LoginHelper {
 }

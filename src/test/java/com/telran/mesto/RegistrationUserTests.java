@@ -7,14 +7,14 @@ public class RegistrationUserTests extends TestBase{
 
     @BeforeMethod
     public void ensurePrecondition() {
-        if (isLogInButtonPresent()) {
-            clickOnLoginTap();
+        if (app.getUser().isLogInButtonPresent()) {
+            app.getUser().clickOnLoginTap();
         }
     }
 
     @Test
     public void registrationPositiveTest() {
-        createNewUser();
+        app.getUser().createNewUser();
 
     }
 
