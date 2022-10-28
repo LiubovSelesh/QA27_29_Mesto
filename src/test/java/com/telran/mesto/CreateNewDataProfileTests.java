@@ -9,6 +9,7 @@ public class CreateNewDataProfileTests extends TestBase{
     public void ensurePrecondition() {
         app.getUser().fillDataLoginUser();
     }
+
     @Test
     public void newDataProfile() {
         app.getUser().editNickName();

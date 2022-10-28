@@ -57,7 +57,7 @@ public class HelperBase {
     public void editNickName(){
         int i = (int) ((System.currentTimeMillis()) / 1000) % 3600;
         click(By.cssSelector(".profile__edit-button"));
-        type(By.cssSelector("[placeholder='Your name']"), "Pumpkin" + i );
+        type(By.cssSelector("[placeholder='Your name']"), "Pumpkin");
         type(By.cssSelector("[placeholder='About you']"), "I'm yellow ripe pumpkin ");
         click(By.cssSelector(".popup__submit-button.popup__submit-button_[form='edit-profile']"));
 

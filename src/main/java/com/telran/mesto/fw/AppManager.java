@@ -2,7 +2,6 @@ package com.telran.mesto.fw;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.util.concurrent.TimeUnit;
 
 public class AppManager  {
@@ -10,9 +9,6 @@ public class AppManager  {
     UserHelper user;
     PhotoHelper photo;
 
-//    public AppManager(WebDriver wd) {
-//        super(wd);
-//    }
 
     public PhotoHelper getPhoto() {
         return photo;
